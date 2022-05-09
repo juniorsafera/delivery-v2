@@ -1,4 +1,4 @@
-import 'package:delivery_app_v2/core/models/category.dart';
+import 'package:delivery_app_v2/core/models/category_model.dart';
 
 const List<CategoryModel> categoryData = [
   CategoryModel(
@@ -7,14 +7,18 @@ const List<CategoryModel> categoryData = [
   ),
   CategoryModel(
     id: 'c2',
-    title: 'Combos',
+    title: 'Hot-Dogs',
   ),
   CategoryModel(
     id: 'c3',
-    title: 'Bebidas',
+    title: 'Combos',
   ),
   CategoryModel(
     id: 'c4',
-    title: 'Hamburguers',
+    title: 'Bebidas',
+  ),
+  CategoryModel(
+    id: 'c5',
+    title: 'Promoções',
   ),
 ];

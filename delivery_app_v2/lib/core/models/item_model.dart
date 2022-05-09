@@ -4,7 +4,7 @@ class ItemModel {
   final String description;
   final List<String> categories;
   final bool available;
-  final String price;
+  final int price;
 
   const ItemModel({
     required this.id,
