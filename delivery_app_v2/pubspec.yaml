@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.1
   splash_screen_view: ^3.0.0
+  flutter_masked_text2: ^0.9.1
 
 dev_dependencies:
   flutter_test:
