@@ -23,7 +23,7 @@ class ItemDetailsPage extends StatelessWidget {
                     SizedBox(
                       width: Get.width,
                       child: Image.network(
-                        controller.arg.imageUrl!,
+                        controller.arg[0].imageUrl!,
                         fit: BoxFit.cover,
                       ),
                     ),
