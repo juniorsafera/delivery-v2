@@ -36,7 +36,7 @@ class ItemDetailsPage extends StatelessWidget {
                         child: Row(
                           children: [
                             IconButton(
-                                onPressed: () {},
+                                onPressed: Get.back,
                                 icon: const Icon(
                                   Icons.arrow_circle_left_outlined,
                                   color: Colors.white,
