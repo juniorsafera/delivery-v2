@@ -12,7 +12,7 @@ import 'package:get/get.dart';
 class AppPages{
   static List<GetPage> pages = [
     GetPage(
-      name: "/", 
+      name: Routes.splahScreen, 
       page:  ()=> const SplashPage(),
       ),
      GetPage(
